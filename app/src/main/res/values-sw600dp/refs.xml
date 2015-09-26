@@ -14,9 +14,11 @@
      limitations under the License.
  -->
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--
+    For more on layout aliases, see:
+    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    -->
 
-    <dimen name="notification_large_icon_default">48dp</dimen>
+    <!-- Replace fragment detail view with layout that takes advantage of more available width.-->
+    <item type="layout" name="fragment_detail">@layout/fragment_detail_wide</item>
 </resources>
